@@ -1,600 +1,769 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
+    <head>
+        <title>Clock Astrology</title>
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Flat Pro || Buisness HTML template</title>
+        <!-- meta -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Required CSS files -->
-    <link href="{{asset('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i')}}" rel="stylesheet">
-    <link rel="stylesheet" href="{{asset('css/owl.carousel.css')}}">
-    <link rel="stylesheet" href="{{asset('css/barfiller.css')}}">
-    <link rel="stylesheet" href="{{asset('css/animate.css')}}">
-    <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
-    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('css/slicknav.css')}}">
-    <link rel="stylesheet" href="{{asset('css/main.css')}}">
-</head>
+        <!-- css -->
+        <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+        <link rel="stylesheet" href="{{asset('css/ionicons.min.css')}}">
+        <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
+        <link rel="stylesheet" href="{{asset('css/owl.carousel.css')}}">
+        <link rel="stylesheet" href="{{asset('css/owl.theme.css')}}">
+        <link rel="stylesheet" href="{{asset('css/owl.transitions.css')}}">
+        <link rel="stylesheet" href="{{asset('css/animate.css')}}">
+        <link rel="stylesheet" href="{{asset('css/custom.css')}}">
 
-<body>
-    <div class="preloader">
-        <span class="preloader-spin"></span>
-    </div>
-    <div class="site">
-        
+        <!-- js -->
+        <script src="{{asset('js/jquery.min.js')}}"></script>
+        <script src="{{asset('js/bootstrap.min.js')}}"></script>
+        <script src="{{asset('js/owl.carousel.min.js')}}"></script>
+        <script src="{{asset('js/isotope.pkgd.min.js')}}"></script>
+        <script src="{{asset('js/script.js')}}"></script>
+        <script src="{{asset('js/wow.min.js')}}"></script>
+        <script src="{{asset('js/jquery.actual.min.js')}}"></script>
+    </head>
 
-        
-        <header class="bg-light">
+    <body>
+        <div id="wrapper">
+            <div id="overlay-1">
+                <section id= "navigation">
+                    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                    <span class="ion-navicon"></span>
+                                </button>
+                                <a class="navbar-brand">Clock Astrology</a>
+                            </div>
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#our_service">Service</a></li>
+                                    <li><a href="#team">Remedies</a></li>
+                                    <li><a href="#contact">Hours</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>
+                            </div>  <!-- collapse navbar-collapse -->
+                        </div>  <!-- container-fluid -->
+                    </nav>  <!-- navbar -->
+                </section>  <!-- #navigation -->
+                <section id="starting">
+                    <div class="text-center starting-text">
+                        <h2 class="rene">CLOCK ASTROLOGY</h2>
+                        <h2>Sri.S Parameswaran Nair</h2>
+                    </div>
+                </section>
+                <div id="bottom" class="bottom text-center">
+                    <a href="#about"><i class="ion-ios7-arrow-down"></i></a>
+                </div>
+            </div><!-- overlay-1 -->
+        </div>  <!-- wrapper -->        
+            
+        <!-- About Us -->
+        <section id="about">
             <div class="container">
-                <div class="row">
-                    <div class="logo-column bg-light h-75 w-20">
-                        <a href="index.html" class="logo">
-                            <img src="{{asset('img/logo.png')}}" alt="logo">
-                        </a>
+                <div class="row text-left" id="heading">
+                    <div class="col-md-6 wow animated zoomInDown" id="heading-text">
+                        <h3>About The Astrologer</h3>
+                        <hr class= "full">
+                        <br/>
                     </div>
-                    <div class="col-6 col-sm-9 nav-column clearfix">
-                        <div class="right-nav">
-                            <span class="search-icon fa fa-search"></span>
-                            <form action="#" class="search-form">
-                                <input type="search" placeholder="search now">
-                                <button type="submit"><i class="fa fa-search"></i></button>
-                            </form>
-                            <div class="header-social">
-                                <a href="#" class="fa fa-facebook"></a>
-                                <a href="#" class="fa fa-twitter"></a>
-                                <a href="#" class="fa fa-github"></a>
-                            </div>
-                        </div>
-                        <nav id="menu" class="d-none d-lg-block">
-                            <ul>
-                                <li>
-                                    <a href="index.html">Home</a>
-                                    
-                                </li>
-                               
-                                <li class="has-child"> <a href="#">Astrology Services</a>
-                                <ul class="sub-menu">
-                                        <li><a href="index.html"></a></li>
-                                        <li><a href="index-2.html">Phone Consultation</a></li>
-                                        <li><a href="index-3.html">2019-Yearly Detailed Report</a></li>
-                                        <li><a href="index-3.html">Get Lucky Dates</a></li>
-                                        <li><a href="index-3.html">Marriage Prediction</a></li>
-                                        <li><a href="index-3.html">Health Horoscope</a></li>
-                                        <li><a href="index-3.html">Child Birth Issue</a></li>
-                                        <li><a href="index-3.html">Business Report</a></li>
-                                    </ul>
-                                    </li>
-                                <li class="has-child">
-                                    <a href="#">Pages</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="404.html">404</a></li>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="career.html">Career</a></li>
-                                        <li><a href="coming-soon.html">Coming Soon</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="faq.html">Faq</a></li>
-                                        <li><a href="portfolio.html">Portfolio</a></li>
-                                        <li><a href="pricing.html">Pricing</a></li>
-                                        <li><a href="service.html">Service</a></li>
-                                        <li><a href="team.html">Team</a></li>
-                                        <li><a href="testimonial.html">Testimonial</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                        </nav>
+                </div>  <!-- row -->
+                <div class="row about-us-text">
+                    <div class="col-md-8">
+                        <p class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                     </div>
-                </div>
-            </div>
-        </header>        <div class="hero-slider">
+                </div>  <!-- row -->
+                
+            </div>  <!-- container -->
+        </section>  <!-- about us -->
 
-            <div class="single-slide" style="background-image: url({{asset('img/slide1.jpg')}})">
-                <div class="inner">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="slide-content">
-                                    <h2>Clock Astrology</h2>
-                                    <p>A Complete Solution</p>
-                                    <div class="slide-btn">
-                                        <a href="#" class="button">Our Services</a>
-                                        
-                                    </div>
+        <!-- Our service -->
+        <section id="our_service">
+            <div class="container">
+                <div class="row text-center" id= "heading">
+                    <div class="col-md-6 col-md-offset-3 wow animated zoomInDown" id= "heading-text">
+                        <h3>Our Services</h3>
+                        <hr class= "full">
+                        <br/>
+                    </div>
+                </div>
+                <div class="row main_content">
+                    <div class="col-md-3 wow animated zoomIn" data-wow-delay="0.1s">
+                        <figure>
+                            <img class="pro img-responsive center-block" src="img/3-col-icons-web.jpg">
+                        </figure>
+                        <h5 class="text-center">Phone Consultation</h5>
+                        
+                    </div>  <!-- col-md-4 -->
+
+                    <div class="col-md-3 wow animated zoomIn" data-wow-delay="0.1s">
+                        <figure>
+                            <img class="pro img-responsive center-block" src="img/3-col-icons-android.jpg">
+                        </figure>
+                        <h5 class="text-center">Yearly Detailed Report</h5>
+                        
+                    </div>  <!-- col-md-4 -->
+
+                    <div class="col-md-3 wow animated zoomIn" data-wow-delay="0.1s">
+                        <figure>
+                            <img class="pro img-responsive center-block" src="img/3-col-icons-iphone.jpg">
+                        </figure>
+                        <h5 class="text-center">Get Lucky Dates</h5>
+                        
+                    </div>  <!-- col-md-4 -->
+                   
+                     <div class="col-md-3 wow animated zoomIn" data-wow-delay="0.1s">
+                        <figure>
+                            <img class="pro img-responsive center-block" src="img/marriage.jpg">
+                        </figure>
+                        <h5 class="text-center">Marriage Prediction</h5>
+                        
+                    </div>  <!-- col-md-4 -->
+                    <div class="col-md-3 wow animated zoomIn" data-wow-delay="0.1s">
+                        <figure>
+                            <img class="pro img-responsive center-block" src="img/health.jpg">
+                        </figure>
+                        <h5 class="text-center">Health horoscope</h5>
+                        
+                    </div>  <!-- col-md-4 -->
+                </div><!-- row main_content -->
+            </div>  <!-- container -->
+        </section>  <!-- our_service -->
+
+        <!-- Our Team -->
+        <section id="team">
+            <div class="container">
+                <div class="team-members">
+                    <div class="row text-right" id="heading">
+                        <div class="col-md-6 col-md-offset-3 wow animated zoomInDown" id="heading-text">
+                            <h3>Our Team</h3>
+                            <p>We can satisfy your demand</p>
+                            <hr class="full">
+                            <br/>
+                        </div>
+                    </div>
+                    <div class="row main_content">
+                        <div class="col-md-4 col-sm-6 text-center">
+                            <div class="row wow animated zoomIn" data-wow-delay="0.1s">
+                                <div class="col-md-8 col-md-offset-2">
+                                    <img class="img-circle img-responsive center-block" src="img/Syed-Rezwanul-Haque.jpg" alt="Syed Rezwanul Haque Rubel">
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="single-slide" style="background-image: url({{asset('img/slide2.jpg')}})">
-                <div class="inner">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-6 text-center">
-                                <div class="slide-content">
-                                    <h2>Om Namah Shivaya</h2>
-                                    <p></p>
-                                    <div class="slide-btn">
-                                        <a href="#" class="button">Our Services</a>
-                                        
-                                    </div>
+                            <h4 class="wow animated fadeInUp" data-wow-delay= "0.2s">Syed Rezwanul Haque Rubel</h4>
+                            <p class= "member-title wow animated fadeIn" data-wow-delay= "0.3s">Project Manager</p>
+                            <p class= "team-member-description wow animated fadeIn" data-wow-delay= "0.4s">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna hifd.</p>
+                            <div class= "row text-center wow animated fadeInDown" data-wow-delay= "0.5s">
+                                <div class= "team-member-contact">
+                                    <a href="#" data-toggle="tooltip" title="Contact with Facebook" class= "team-facebook">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                
+                                    <a href="#" data-toggle="tooltip" title="Contact with Twitter" class= "team-twitter">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                
+                                    <a href="#" data-toggle="tooltip" title="Contact with Google-plus"class= "team-google-plus">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </div>  
+                            </div>
+                        </div>  <!-- col-md-4 -->
+                        <div class="col-md-4 col-sm-6 text-center">
+                            <div class= "row wow animated zoomIn" data-wow-delay="0.6s">
+                                <div class= "col-md-8 col-md-offset-2">
+                                    <img class="img-circle img-responsive center-block" src="img/Shahjahan-Jewel.jpg" alt= "Shahjahan Jewel" >
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="single-slide" style="background-image: url({{asset('img/sl.jpg')}})">
-                <div class="inner">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="slide-content">
-                                    
-                                    <p></p>
-                                    
+                            <h4 class= "wow animated fadeInUp" data-wow-delay= "0.7s">Shahjahan Jewel</h4>
+                            <p class= "member-title wow animated fadeIn" data-wow-delay= "0.8s">Head Of Ideas</p>
+                            <p class= "team-member-description wow animated fadeIn" data-wow-delay= "0.9s">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                            <div class= "row text-center wow animated fadeInDown" data-wow-delay= "0.5s">   
+                                <div class= "team-member-contact">
+                                    <a href="#" data-toggle="tooltip" title="Contact with Facebook" class= "team-facebook">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                    <a href="#" data-toggle="tooltip" title="Contact with Twitter" class= "team-twitter">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                    <a href="#" data-toggle="tooltip" title="Contact with Google-plus"class= "team-google-plus">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
                                 </div>
                             </div>
-                            
+                        </div>  <!-- col-md-4 -->
+                        <div class="col-md-4 col-sm-6 text-center">
+                            <div class= "row wow animated zoomIn" data-wow-delay="1.1s">
+                                <div class="col-md-8 col-md-offset-2">
+                                    <img class="img-circle img-responsive center-block" src="img/nathan.jpg" alt= "Nathan Thomas Paul" >
+                                </div>
+                            </div>
+                            <h4 class="wow animated fadeInUp" data-wow-delay= "1.2s">Nathan Thomas Paul</h4>
+                            <p class= "member-title wow animated fadeIn" data-wow-delay= "1.3s">Client Relations Manager</p>
+                            <p class= "team-member-description wow animated fadeIn" data-wow-delay= "1.4s">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum.</p>
+                            <div class= "row text-center wow animated fadeInDown" data-wow-delay= "0.5s">   
+                                <div class= "team-member-contact">
+                                    <a href="#" data-toggle="tooltip" title="Contact with Facebook" class= "team-facebook">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                
+                                    <a href="#" data-toggle="tooltip" title="Contact with Twitter" class= "team-twitter">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                
+                                    <a href="#" data-toggle="tooltip" title="Contact with Google-plus"class= "team-google-plus">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>  <!-- col-md-4 -->
+                    </div> <!-- row main_content -->
+                </div>  <!-- team-members -->
+            </div>  <!-- container -->
+        </section>  <!-- team -->
+
+        <!-- Portfolio -->
+        <section id="portfolio">
+            <div class="container">
+                <div class="row text-center" id="heading">
+                    <div class="col-md-6 col-md-offset-3 wow animated zoomInDown" id="heading-text">
+                        <h3>Our Works</h3>
+                        <p>Take a look, Taste our cook</p>
+                        <hr class= "full">
+                        <br/>
+                    </div>
+                </div>
+                <div class="main_content">
+                    <div class="row port">
+                        <div class="col-md-8 col-md-offset-2 text-center button-group" id="filters">
+                            <button type="button" class="btn btn-default is-checked" data-filter="*">All</button>
+                            <button type="button" class="btn btn-default" data-filter=".web">Web Design</button>
+                            <button type="button" class="btn btn-default" data-filter=".game">Game</button>
+                            <button type="button" class="btn btn-default" data-filter=".app">App</button>
+                        </div>
+                    </div>  <!-- row -->
+                    <div class="row">
+                        <div class="isotope" id="port-items">
+                            <div class="col-md-4 col-sm-6 col-xs-6 element-item web" data-category="web">
+                                <img class="img-responsive" src="img/web-design-1.jpg" >
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-6 element-item game" data-category="game">
+                                <img class="img-responsive" src="img/game-2.jpg">
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-6 element-item app" data-category="app">
+                                <img class="img-responsive" src="img/app-1.jpg">
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-6 element-item web" data-category="web">
+                                <img class="img-responsive" src="img/web-design-2.jpg">
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-6 element-item game" data-category="game">
+                                <img class="img-responsive" src="img/game-1.jpg">
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-6 element-item app" data-category="app">
+                                <img class="img-responsive" src="img/app-2.jpg">
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-6 element-item web" data-category="web">
+                                <img class="img-responsive" src="img/web-design-3.jpg">
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-6 element-item game" data-category="game">
+                                <img class="img-responsive" src="img/game-3.jpg">
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-6 element-item app" data-category="app">
+                                <img class="img-responsive" src="img/app-3.jpg">
+                            </div>
+                        </div>  <!-- isotope -->
+                    </div>  <!-- row -->
+                </div>  <!-- main_content -->
+            </div>  <!-- container -->
+        </section>  <!-- portfolio -->
+        
+        <!-- Price-Table -->
+        <section id="price_table">
+            <div class="container">
+                <div class="row text-center" id="heading">
+                    <div class="col-md-6 col-md-offset-3 wow animated zoomInDown" id="heading-text">
+                        <h3>Price Table</h3>
+                        <p>So flexible, More comfortable</p>
+                        <hr class="full">
+                        <br/>
+                    </div>
+                </div>  <!-- row -->
+                <div class="row main_content">
+                    <ul class="price-table-chart">
+                        <li>
+                            <a href="#">
+                                <strong>Free</strong>
+                                <span class="price_table-description">1 Website</span> 
+                                <span class="price_table-description">1 Year Updates</span> 
+                                <span class="price_table-description">No Email Support</span>
+                                <big class="price_table-price">$0</big>
+                                <span class="price_table-button">Buy Now</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="#">
+                                <strong>Business</strong>
+                                <span class="price_table-description">Unlimited Websites</span> 
+                                <span class="price_table-description">1 Year Updates</span> 
+                                <span class="price_table-description">1 Year Email Support</span>
+                                <big class="price_table-price">$90</big>
+                                <span class="price_table-button">Buy Now</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="#">
+                                <strong>Premium</strong>
+                                <span class="price_table-description">Unlimited Websites</span> 
+                                <span class="price_table-description">Lifetime Updates</span> 
+                                <span class="price_table-description">Lifetime Email Support</span>
+                                <big class="price_table-price">$190</big>
+                                <span class="price_table-button">Buy Now</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>  <!-- row main_content -->
+            </div>  <!-- container -->
+        </section>  <!-- price_table -->
+
+        <!-- Blog -->
+        <section id="blog">
+            <div class="container">
+                <div class="row text-center" id="heading">
+                    <div class= "bg-image">
+                        <div class= "col-md-6 col-md-offset-3 wow animated zoomInDown" id= "heading-text">
+                            <h3>Our Blog</h3>
+                            <p>Sharing knowledge, Accepting challenge.</p>
+                            <hr class= "full">
+                            <br/>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div><div class="brand-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 col-6 single-brand">
-                <div class="inner">
-                    <a href="#">
-                        <img src="assets/img/brand1.png" alt="">
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-3 col-6 single-brand">
-                <div class="inner">
-                    <a href="#">
-                        <img src="assets/img/brand2.png" alt="">
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-3 col-6 single-brand">
-                <div class="inner">
-                    <a href="#">
-                        <img src="assets/img/brand3.png" alt="">
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-3 col-6 single-brand">
-                <div class="inner">
-                    <a href="#">
-                        <img src="assets/img/brand4.png" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div><div class="service-area bg2 sp">
-    <div class="container">
-        <div class="section-title">
-            <h2>Our Service</h2>
-            <p>Malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-6 single-service">
-                <div class="inner">
-                    <div class="title">
-                        <div class="icon">
-                            <i class="fa fa-film"></i>
+                <div class= "row post">
+                    <div class= "main_content">
+                        <div class= "post-thumbnail col-md-5">
+                            <div class= "frame">
+                                <div class="post-format">
+                                    <span class="icon-picture">
+                                        <i class= "fa fa-laptop"></i>
+                                    </span>
+                                </div>
+                                <a href="#"><img class= "img-responsive" src="img/design1.png" alt=""/></a>
+                            </div>
+                            <img class="hidden-xs post-shadow" src="img/post-shadow.png" alt=""/>
                         </div>
-                        <h4>Video Making</h4>
-                    </div>
-                    <div class="content">
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 single-service">
-                <div class="inner">
-                    <div class="title">
-                        <div class="icon">
-                            <i class="fa fa-camera"></i>
-                        </div>
-                        <h4>Photography</h4>
-                    </div>
-                    <div class="content">
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 single-service">
-                <div class="inner">
-                    <div class="title">
-                        <div class="icon">
-                            <i class="fa fa-music"></i>
-                        </div>
-                        <h4>Music Composing</h4>
-                    </div>
-                    <div class="content">
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 single-service">
-                <div class="inner">
-                    <div class="title">
-                        <div class="icon">
-                            <i class="fa fa-bullhorn"></i>
-                        </div>
-                        <h4>Product Marketing</h4>
-                    </div>
-                    <div class="content">
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 single-service">
-                <div class="inner">
-                    <div class="title">
-                        <div class="icon">
-                            <i class="fa fa-magic"></i>
-                        </div>
-                        <h4>Video Editing</h4>
-                    </div>
-                    <div class="content">
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 single-service">
-                <div class="inner">
-                    <div class="title">
-                        <div class="icon">
-                            <i class="fa fa-bar-chart"></i>
-                        </div>
-                        <h4>Presentation</h4>
-                    </div>
-                    <div class="content">
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div><div class="portfolio-area sp">
-    <div class="container">
-        <div class="section-title">
-            <h2>Latest Work</h2>
-            <p>Malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
-        </div>
-        <div class="row">
-            <div class="single-portfolio col-md-4">
-                <div class="inner">
-                    <div class="portfolio-img">
-                        <img src="assets/img/portfolio1.jpg" alt="portfolio-image">
-                        <div class="hover-content">
-                            <div>
-                                <a href="#" class="button">View Case Study</a>
+                        <div class= "post-excerpt col-md-7">
+                            <h2 class="title"><a href="#">FLAT &amp; MODERN TREND DESIGN</a></h2>
+                            <div class="line-dotted"></div>
+                            <p>
+                                Diur apelligh to luriem rorde ist thuir quire contears foresa irmde narelair muiers lirguen luirem joires porfelas wateir ogespear pesae. Irmde gues narelair muiers lirguen luirem joires porf wateir ogeepear pesae. Diur tol apelligh to luriem rorde ist thuir quire contears foresa irmde narelair muiers lirguen luirem joires porfelas quie wateir ogespear pesae. Irmde gues narelair muiers lirguen luirem joires porf wateir ogeepear pesae.
+                                <a href="#">...Read more</a>
+                            </p> 
+                            <div class="line-dotted"></div>
+                            <p class="meta">
+                                <strong>Date:</strong> 14/February/2013 <strong>By:</strong> Zyanya Peredo <strong>In: </strong><a href="#">Photography</a>, <a href="#">Print</a>, <a href="#">Design</a>
+                            </p>
+                            <div class="line-dotted"></div>
+                            <div class= "post-share">
+                                <p>Share this post:</p>
+                                <ul>
+                                    <li>
+                                        <a href="#" data-toggle="tooltip" title="Contact with Facebook" class= "team-facebook">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" data-toggle="tooltip" title="Contact with Twitter" class= "team-twitter">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" data-toggle="tooltip" title="Contact with Google-plus" class= "team-google-plus">
+                                            <i class="fa fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                </ul>   
                             </div>
                         </div>
                     </div>
-                    <div class="portfolio-content">
-                        <a href="#"><h3>The Back Chiropractor</h3></a>
-                        <span>Ceramics, Design</span>
-                    </div>
                 </div>
-            </div>
-            <div class="single-portfolio col-md-4">
-                <div class="inner">
-                    <div class="portfolio-img">
-                        <img src="assets/img/portfolio2.jpg" alt="portfolio-image">
-                        <div class="hover-content">
-                            <div>
-                                <a href="#" class="button">View Case Study</a>
+                <div class="row post">
+                    <div class="main_content">
+                        <div class="post-thumbnail col-md-5">
+                            <div class="frame">
+                                <div class="post-format image">
+                                    <span class="icon-facetime-video">
+                                        <i class="fa fa-video-camera"></i>
+                                    </span>
+                                </div>
+                                <div class="vimeo-video" rel="" data-width="500" data-height="400">
+                                    <iframe width="420" height="315" src="//www.youtube.com/embed/DN__D5ixme0" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <img class="hidden-xs post-shadow" src="img/post-shadow.png" alt=""/>
+                        </div>
+                        <div class="post-excerpt col-md-7">
+                            <h2 class="title">
+                                <a href="#">Make up forever - tres vichy</a>
+                            </h2>
+                            <div class="line-dotted">
+                            </div>
+                            <p>
+                                Diur apelligh to luriem rorde ist thuir quire contears foresa irmde narelair muiers lirguen luirem joires porfelas wateir ogespear pesae. Irmde gues narelair muiers lirguen luirem joires porf wateir ogeepear pesae. Diur tol apelligh to luriem rorde ist thuir quire contears foresa irmde narelair muiers lirguen luirem joires porfelas quie wateir ogespear pesae. Irmde gues narelair muiers lirguen luirem joires porf wateir ogeepear pesae.
+                                <a href="#">...Read more</a>
+                            </p> 
+                            <div class="line-dotted"></div>
+                            <p class="meta"><strong>Date: </strong>14/February/2013 <strong>By: </strong>Zyanya Peredo <strong>In: </strong><a href="#">Photography</a>, <a href="#">Print</a>, <a href="#">Design</a>
+                            </p>
+                            <div class="line-dotted"></div>
+                            <div class= "post-share">
+                                <p>Share this post:</p>
+                                <ul>
+                                    <li>
+                                        <a href="#" data-toggle="tooltip" title="Contact with Facebook" class= "team-facebook">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" data-toggle="tooltip" title="Contact with Twitter" class= "team-twitter">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" data-toggle="tooltip" title="Contact with Google-plus" class= "team-google-plus">
+                                            <i class="fa fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                </ul>   
                             </div>
                         </div>
                     </div>
-                    <div class="portfolio-content">
-                        <a href="#"><h3>The Back Chiropractor</h3></a>
-                        <span>Ceramics, Design</span>
-                    </div>
                 </div>
-            </div>
-            <div class="single-portfolio col-md-4">
-                <div class="inner">
-                    <div class="portfolio-img">
-                        <img src="assets/img/portfolio3.jpg" alt="portfolio-image">
-                        <div class="hover-content">
-                            <div>
-                                <a href="#" class="button">View Case Study</a>
+                <div class="row post">
+                    <div class="main_content">
+                        <div class="post-thumbnail col-md-5">
+                            <div class="frame">
+                                <div class="post-format quote">
+                                    <span class="icon-camera-retro">
+                                        <i class= "fa fa-star"></i>
+                                    </span>
+                                </div>
+                                <a href="#"><img class= "img-responsive" src="img/blog3.png" alt=""/></a>
+                            </div>
+                            <img class="hidden-xs post-shadow" src="img/post-shadow.png" alt=""/>
+                        </div>
+                        <div class="post-excerpt col-md-7">
+                            <h2 class="title">
+                                <a href="#">Make up forever - Make your web page beautiful.</a>
+                            </h2>
+                            <div class="line-dotted"></div>
+                            <p>
+                                Diur apelligh to luriem rorde ist thuir quire contears foresa irmde narelair muiers lirguen luirem joires porfelas wateir ogespear pesae. Irmde gues narelair muiers lirguen luirem joires porf wateir ogeepear pesae.
+                                <a href="#">...Read more</a>
+                            </p> 
+                            <div class="line-dotted"></div>
+                            <p class="meta"><strong>Date: </strong>14/February/2013 <strong>By: </strong>Zyanya Peredo<strong>In: </strong><a href="#">Photography</a>, <a href="#">Print</a>, <a href="#">Design</a>
+                            </p>
+                            <div class="line-dotted"></div>
+                            <div class= "post-share">
+                                <p>Share this post:</p>
+                                <ul>
+                                    <li>
+                                        <a href="#" data-toggle="tooltip" title="Contact with Facebook" class= "team-facebook">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" data-toggle="tooltip" title="Contact with Twitter" class= "team-twitter">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" data-toggle="tooltip" title="Contact with Google-plus" class= "team-google-plus">
+                                            <i class="fa fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                </ul>   
                             </div>
                         </div>
                     </div>
-                    <div class="portfolio-content">
-                        <a href="#"><h3>The Back Chiropractor</h3></a>
-                        <span>Ceramics, Design</span>
-                    </div>
                 </div>
-            </div>
-            <div class="single-portfolio col-md-4">
-                <div class="inner">
-                    <div class="portfolio-img">
-                        <img src="assets/img/portfolio4.jpg" alt="portfolio-image">
-                        <div class="hover-content">
-                            <div>
-                                <a href="#" class="button">View Case Study</a>
+                <div class="row post">
+                    <div class="main_content">
+                        <div class="post-thumbnail col-md-5">
+                            <div class="frame">
+                                <div class="post-format gallery">
+                                    <span class="icon-quote-left">
+                                        <i class= "fa fa-bookmark"></i>
+                                    </span>
+                                </div>
+                                <a href="#"><img class= "img-responsive" src="img/global_focus.jpg" alt=""/></a>
+                            </div>
+                            <img class="hidden-xs post-shadow" src="img/post-shadow.png" alt=""/>
+                        </div>
+                        <div class="post-excerpt col-md-7">
+                            <h2 class="title">
+                                <a href="#">The most beautiful quotes ever</a>
+                            </h2>
+                            <div class="line-dotted"></div>
+                            <p>
+                                Diur apelligh to luriem rorde ist thuir quire contears foresa irmde narelair muiers lirguen luirem joires porfelas wateir ogespear pesae. Irmde gues narelair muiers lirguen luirem joires porf wateir ogeepear pesae. Diur tol apelligh to luriem rorde ist thuir quire contears foresa irmde narelair muiers lirguen luirem joires porfelas quie wateir ogespear pesae. Irmde gues narelair muiers lirguen luirem joires porf wateir ogeepear pesae.
+                                <a href="#">...Read more</a>
+                            </p> 
+                            <div class="line-dotted"></div>
+                            <p class="meta"><strong>Date:</strong> 14/February/2013 <strong>By:</strong> Zyanya Peredo <strong>In:</strong> <a href="#">Photography</a>, <a href="#">Print</a>, <a href="#">Design</a>
+                            </p>
+                            <div class="line-dotted"></div>
+                            <div class= "post-share">
+                                <p>Share this post:</p>
+                                <ul>
+                                    <li>
+                                        <a href="#" data-toggle="tooltip" title="Contact with Facebook" class= "team-facebook">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" data-toggle="tooltip" title="Contact with Twitter" class= "team-twitter">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" data-toggle="tooltip" title="Contact with Google-plus" class= "team-google-plus">
+                                            <i class="fa fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                </ul>   
                             </div>
                         </div>
                     </div>
-                    <div class="portfolio-content">
-                        <a href="#"><h3>The Back Chiropractor</h3></a>
-                        <span>Ceramics, Design</span>
-                    </div>
                 </div>
-            </div>
-            <div class="single-portfolio col-md-4">
-                <div class="inner">
-                    <div class="portfolio-img">
-                        <img src="assets/img/portfolio5.jpg" alt="portfolio-image">
-                        <div class="hover-content">
-                            <div>
-                                <a href="#" class="button">View Case Study</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="portfolio-content">
-                        <a href="#"><h3>The Back Chiropractor</h3></a>
-                        <span>Ceramics, Design</span>
-                    </div>
-                </div>
-            </div>
-            <div class="single-portfolio col-md-4">
-                <div class="inner">
-                    <div class="portfolio-img">
-                        <img src="assets/img/portfolio6.jpg" alt="portfolio-image">
-                        <div class="hover-content">
-                            <div>
-                                <a href="#" class="button">View Case Study</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="portfolio-content">
-                        <a href="#"><h3>The Back Chiropractor</h3></a>
-                        <span>Ceramics, Design</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 text-center" data-margin="40px 0 0">
-                <a href="#" class="button">More Works</a>
-            </div>
-        </div>
-    </div>
-</div><div class="testimonial-area sp bg1">
-    <div class="container">
-        <div class="section-title white">
-            <h2>Clients Review</h2>
-            <p>Malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
-        </div>
-        <div class="testimonial-slider">
-            <div class="single-slide">
-                <div class="inner">
-                    <p>When I was just starting 6th grade I got my first job. Paperboy! Boy, was I excited. At that time I had spent a lot of time actually playing the video official.</p>
-                    <div class="client-info">
-                        <div class="client-img">
-                            <img src="assets/img/client.jpg" alt="client">
-                        </div>
-                        <div class="client-data">
-                            <h4>Jhon Doe</h4>
-                            <span>Designer</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="single-slide">
-                <div class="inner">
-                    <p>When I was just starting 6th grade I got my first job. Paperboy! Boy, was I excited. At that time I had spent a lot of time actually playing the video official.</p>
-                    <div class="client-info">
-                        <div class="client-img">
-                            <img src="assets/img/client.jpg" alt="client">
-                        </div>
-                        <div class="client-data">
-                            <h4>Jhon Doe</h4>
-                            <span>Designer</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="single-slide">
-                <div class="inner">
-                    <p>When I was just starting 6th grade I got my first job. Paperboy! Boy, was I excited. At that time I had spent a lot of time actually playing the video official.</p>
-                    <div class="client-info">
-                        <div class="client-img">
-                            <img src="assets/img/client.jpg" alt="client">
-                        </div>
-                        <div class="client-data">
-                            <h4>Jhon Doe</h4>
-                            <span>Designer</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="single-slide">
-                <div class="inner">
-                    <p>When I was just starting 6th grade I got my first job. Paperboy! Boy, was I excited. At that time I had spent a lot of time actually playing the video official.</p>
-                    <div class="client-info">
-                        <div class="client-img">
-                            <img src="assets/img/client.jpg" alt="client">
-                        </div>
-                        <div class="client-data">
-                            <h4>Jhon Doe</h4>
-                            <span>Designer</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div><div class="faq-area sp bg2">
-    <div class="container">
-        <div class="section-title">
-            <h2>Frequently Asked Questions</h2>
-            <p>Malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="faq">
-                    <div class="single-item">
-                        <h4>Low Cost Advertising Available or Not?</h4>
-                        <div class="content">
-                            Pellentesque habitant morbi tristique senectus et netus et malesu ada fames and reply to all.
-                        </div>
-                    </div>
-                    <div class="single-item">
-                        <h4>What Is The Big R For Marketing Your Business?</h4>
-                        <div class="content">
-                            Pellentesque habitant morbi tristique senectus et netus et malesu ada fames and reply to all.
-                        </div>
-                    </div>
-                    <div class="single-item">
-                        <h4>Does Using Banner Stands Increase Trade Show Traffic?</h4>
-                        <div class="content">
-                            Pellentesque habitant morbi tristique senectus et netus et malesu ada fames and reply to all.
-                        </div>
-                    </div>
-                    <div class="single-item">
-                        <h4>How To Write Better Advertising Copy?</h4>
-                        <div class="content">
-                            Pellentesque habitant morbi tristique senectus et netus et malesu ada fames and reply to all.
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="faq-img text-center">
-                    <img src="assets/img/fag-img.png" alt="faq">
-                </div>
-            </div>
-        </div>
-    </div>
-</div><footer>
-    <div class="footer-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-3 footer_widget">
-                    <div class="inner">
-                        <h4>About</h4>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                        <p>Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, antesenectus et netus et malesuada fames ac turpis egestas.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 footer_widget">
-                    <div class="inner">
-                        <h4>Company</h4>
-                        <ul>
-                            <li><a href="#">Company Overview</a></li>
-                            <li><a href="#">Meet The Team</a></li>
-                            <li><a href="#">Our Awesome Partners</a></li>
-                            <li><a href="#">Our Services</a></li>
-                            <li><a href="#">Frequently Asked Questions</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Terms of Use</a></li>
+                <div class= "row">
+                    <div class= "col-md-6 col-md-offset-3 text-center">
+                        <ul class="pagination">
+                            <li class="disabled"><a href="#">&gt;&gt;</a></li>
+                            <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">>></a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 footer_widget">
-                    <div class="inner">
-                        <h4>Recent Posts</h4>
-                        <div class="media">
-                            <a href="#">
-                                <img src="assets/img/recent1.jpg" class="d-flex mr-3" alt="">
-                            </a>
-                            <div class="media-body">
-                                <h5>
-                                    <a href="#">Curling irons are as individual as the women</a>
-                                </h5>
-                                <span>June 22, 2017</span>
-                            </div>
+            </div>  <!-- container -->
+        </section>  <!-- blog -->
+
+        <!-- Clients -->
+        <section id= "testimonial">
+            <div class= "container">
+                <div class= "row text-center" id= "heading">
+                    <div class= "bg-image col-md-12">
+                        <div class= "col-md-6 col-md-offset-3 wow animated zoomInDown" id= "heading-text">
+                            <h3>Testimonials</h3>
+                            <p>Their satisfication, Our inspiration.</p>
+                            <hr class= "full">
+                            <br/>
                         </div>
-                        <div class="media">
-                            <a href="#">
-                                <img src="assets/img/recent2.jpg" class="d-flex mr-3" alt="">
-                            </a>
-                            <div class="media-body">
-                                <h5>
-                                    <a href="#">Curling irons are as individual as the women</a>
-                                </h5>
-                                <span>June 22, 2017</span>
+                    </div>
+                </div>
+                <div class= "row main_content">
+                    <div class= "col-md-6 col-md-offset-3">
+                        <div id="client-speech" class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class= "row">
+                                    <div class= "col-md-6 col-md-offset-3">
+                                        <img class= "img-circle img-responsive center-block" src="img/client1.png">
+                                    </div>  
+                                    <div class= "col-md-12">
+                                        <p class= "client-comment text-center">
+                                            When you form a team, why do you try to form a team? Because teamwork builds trust and trust builds speed.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class= "row text-center">
+                                    <p class= "client-name text-center"> ----- Noona Nuengthida Sophon</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="media">
-                            <a href="#">
-                                <img src="assets/img/recent3.jpg" class="d-flex mr-3" alt="">
-                            </a>
-                            <div class="media-body">
-                                <h5>
-                                    <a href="#">Curling irons are as individual as the women</a>
-                                </h5>
-                                <span>June 22, 2017</span>
+                            <div class="item">
+                                <div class= "row">
+                                    <div class= "col-md-6 col-md-offset-3">
+                                        <img class= "img-circle img-responsive center-block" src="img/client2.jpg">
+                                    </div>
+                                    <div class= "col-md-12">
+                                        <p class= "client-comment text-center">
+                                            I am constantly being asked about individuals.&nbsp;The only way to win is as a team. Football is not about one or two or three star players.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class= "row text-center">
+                                    <p class= "client-name">-----Md. Aminul Islam Bhuiyan</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class= "row">
+                                    <div class= "col-md-6 col-md-offset-3">
+                                        <img class= "img-circle img-responsive center-block" src="img/client3.png">
+                                    </div>
+                                    <div class= "col-md-12">
+                                        <p class= "client-comment text-center">
+                                            Individual commitment to a group effort- that is what makes a team work, a company work, a society work, a civilisation work.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class= "row text-center">
+                                    <p class= "client-name">-----  Jenifar Pink</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 footer_widget">
-                    <div class="inner">
-                        <h4>Address</h4>
-                        <h5>Flat Pro, Inc.</h5>
-                        <p>649 Folsom Ave, Suite 400 <br>San Francisco, CA 63105 <br>P: (123) 456-7890</p>
-                        <h4>Newsletter</h4>
-                        <form action="#" class="nw_form">
-                            <input placeholder="Enter your email" type="email">
-                            <button><i class="fa fa-paper-plane"></i></button>
+            </div>  
+        </section>  <!-- clients -->
+
+        <!-- contact -->
+        <section id= "contact">
+            <div class= "container">
+                <div class="row text-center" id= "heading">
+                    <div class= "bg-image">
+                        <div class= "col-lg-6 col-lg-offset-3 share-text wow animated zoomInDown" id= "heading-text">
+                            <h3 class= "text-center">Stay Connected</h3>
+                            <p>We want to connect people like you.</p>
+                            <hr class= "full">
+                            <br/>
+                        </div>
+                    </div>
+                </div>
+                <div class= "row text-center main_content">
+                    <div class= "col-md-6 col-md-offset-3 text-center">
+                        <form method="post" action="#">
+                            <div class= "form">
+                                <div class="input-group margin-bottom-sm">
+                                    <span class="input-group-addon">
+                                        <i class="fa fa-user fa-fw"></i>
+                                    </span>
+                                    <input class="form-control" type="text" placeholder="Name" required>
+                                </div>
+                                <div class="input-group margin-bottom-sm">
+                                    <span class="input-group-addon">
+                                        <i class="fa fa-envelope-o fa-fw"></i>
+                                    </span>
+                                    <input class="form-control" type="text" placeholder="Email address" required>
+                                </div>
+                                <div class="input-group margin-bottom-sm">
+                                    <span class="input-group-addon">
+                                        <i class="fa fa-tags fa-fw"></i>
+                                    </span>
+                                    <input class="form-control" type="text" placeholder="Subject">
+                                </div>
+                            </div>
+                            <div class="input-group margin-bottom-sm">
+                                    <span class="input-group-addon">
+                                        <i class="fa fa-comment-o fa-fw"></i>
+                                    </span>
+                                <textarea class="form-control" rows="6" type= "text" placeholder="Your Message" required></textarea>
+                            </div>
+                            <input class="btn btn-primary send" type="submit" value="Send Message">
                         </form>
+                    </div>  
+                </div>
+                <div class= "row">
+                    <div class= "col-md-6 col-md-offset-3 text-center">
+                        <ul class="socials-icons">
+                            <li>
+                                <a href="#" data-toggle="tooltip" title="Share in Facebook" class="facebook"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" data-toggle="tooltip" title="Share in Twitter" class="twitter"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" data-toggle="tooltip" title="Share in Google +" class="google-plus"><i class="fa fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" data-toggle="tooltip" title="Share in Instagram" class="instagram"><i class="fa fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" data-toggle="tooltip" title="Share in Pinterest" class="pinterest"><i class="fa fa-pinterest"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" data-toggle="tooltip" title="Connect with Skype" class="skype"><i class="fa fa-skype"></i></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="footer-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="copyright-txt">
-                        © 2017 Flat Pro. All Rights Reserved.
-                    </div>
-                </div>
-                <div class="col-lg-6 text-right">
-                    <div class="footer-nav">
-                        <a href="#">Home</a>
-                        <a href="#">Portfolio</a>
-                        <a href="#">Pages</a>
-                        <a href="#">Shortcode</a>
-                        <a href="#">Blog</a>
-                    </div>
+        </section>  <!-- contacts --> 
+            
+        <!-- footer -->
+        <section id= "footer" class= "main-footer">
+            <div class= "row">
+                <div class= "logo text-center">
+                    <h1>Renessa</h1>
                 </div>
             </div>
-        </div>
-    </div>
-</footer>
+            <div class= "row">
+                <div class= "copyright text-center">
+                    <p> © 2014 Technext. Designed and Developed by <a href="http://themewagon.com"><span class= "theme">Themewagon</span></a></p>
+                </div>
+            </div>
+        </section><!-- footer -->
+
+        <!-- js -->
+        <script>
+            $(document).ready(function() {
+                $("#client-speech").owlCarousel({
+                    autoPlay: 3000,
+                    navigation : false, // Show next and prev buttons
+                    slideSpeed : 700,
+                    paginationSpeed : 1000,
+                    singleItem:true
+                });
+            });
+        </script>
+        <script>
+            new WOW().init();
+        </script>
+        <script>
+            $( function() {
+                  // init Isotope
+                var $container = $('.isotope').isotope
+                ({
+                    itemSelector: '.element-item',
+                    layoutMode: 'fitRows'
+                });
+
+
+                // bind filter button click
+                $('#filters').on( 'click', 'button', function() 
+                {
+                    var filterValue = $( this ).attr('data-filter');
+                    // use filterFn if matches value
+                    $container.isotope({ filter: filterValue });
+                 });
+  
+              // change is-checked class on buttons
+                $('.button-group').each( function( i, buttonGroup ) 
+                {
+                    var $buttonGroup = $( buttonGroup );
+                    $buttonGroup.on( 'click', 'button', function() 
+                    {
+                        $buttonGroup.find('.is-checked').removeClass('is-checked');
+                        $( this ).addClass('is-checked');
+                    });
+                });
+              
+            });
+        </script>
+        <script src="{{asset('js/jquery-ui-1.10.3.min.js')}}"></script>
+        <script src="{{asset('js/jquery.knob.js')}}"></script>
+        <script src="{{asset('js/daterangepicker.js')}}"></script>
+        <script src="{{asset('js/bootstrap3-wysihtml5.all.min.js')}}"></script>
+        <script src="{{asset('js/dashboard.js')}}"></script>
        
-       
-        
-    </div>
-
-    <!--Required JS files-->
-<script src="{{asset('js/jquery-2.2.4.min.js')}}"></script>
-<script src="{{asset('js/vendor/popper.min.js')}}"></script>
-<script src="{{asset('js/vendor/bootstrap.min.js')}}"></script>
-<script src="{{asset('js/vendor/owl.carousel.min.js')}}"></script>
-<script src="{{asset('js/vendor/isotope.pkgd.min.js')}}"></script>
-<script src="{{asset('js/vendor/jquery.barfiller.js')}}"></script>
-<script src="{{asset('js/vendor/loopcounter.js')}}"></script>
-<script src="{{asset('js/vendor/slicknav.min.js')}}"></script>
-<script src="{{asset('js/active.js')}}"></script>
-
-</body>
-
+    </body>
 </html>
+

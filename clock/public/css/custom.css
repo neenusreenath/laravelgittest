@@ -92,6 +92,13 @@ p {
     line-height: 31px;
 }
 
+.pother {
+    font-family: sans-serif;
+    color: #fff;
+}
+.hother{
+    color: #fff;
+}
 .row
 {
     margin-right: 0px;
@@ -187,6 +194,20 @@ iframe
     background-position: center;
     background-size: cover;
 }
+#wrapperother
+{
+    background: url(../img/back.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+#wrapperremedy
+{
+    background: url(../img/rem2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
 #overlay-1
 {
     background-color: rgba(40, 40, 40, 0.6);
@@ -196,6 +217,15 @@ iframe
 .starting-text
 {
     padding: 177px 0px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000;
+    letter-spacing: 2px;
+}
+
+.starting-textspec
+{
+    padding: 130px 0px;
+    color: white;
     font-weight: bold;
     text-shadow: 1px 1px 1px #000;
     letter-spacing: 2px;

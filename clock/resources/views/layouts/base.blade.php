@@ -41,10 +41,11 @@
                             </div>
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="#navigation">Home</a></li>
                                     <li><a href="#about">About</a></li>
-                                    <li><a href="#our_service">Service</a></li>
+                                    <li><a href="#our_service">Services</a></li>
                                     <li><a href="#team">Remedies</a></li>
-                                    <li><a href="#contact">Hours</a></li>
+                                  
                                     <li><a href="#contact">Contact</a></li>
                                 </ul>
                             </div>  <!-- collapse navbar-collapse -->
@@ -53,8 +54,9 @@
                 </section>  <!-- #navigation -->
                 <section id="starting">
                     <div class="text-center starting-text">
-                        <h2 class="rene">CLOCK ASTROLOGY</h2>
-                        <h2>Sri.S Parameswaran Nair</h2>
+                        <h2>Ohm Namah Sivaya</h2>
+                        <h2 class="rene">CLOCK ASTROLOGY SERVICES</h2>
+                        <h2>Sri.Mulloor S Parameswaran Nair</h2>
                     </div>
                 </section>
                 <div id="bottom" class="bottom text-center">
@@ -66,16 +68,21 @@
         <!-- About Us -->
         <section id="about">
             <div class="container">
-                <div class="row text-left" id="heading">
-                    <div class="col-md-6 wow animated zoomInDown" id="heading-text">
+                <div class="row text-center" id= "heading">
+                    <div class="col-md-6 col-md-offset-3 wow animated zoomInDown" id= "heading-text">
                         <h3>About The Astrologer</h3>
                         <hr class= "full">
                         <br/>
                     </div>
                 </div>  <!-- row -->
                 <div class="row about-us-text">
-                    <div class="col-md-8">
-                        <p class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <div class="col-md-12">
+                        <center><img src="{{asset('img/Edited1.jpg')}}"></center>
+                       
+                        <p class= "client-comment text-center">Sri Mulloor S.Parameswaran Nair is a famous astrologer and a member of Veda Vedanga Gaveshana Parishath.He has more than 25 years of experience in Vedic Astrology and has immense and profound knowledge in Hindu predictive astrology.
+                         </p>
+                       
+
                     </div>
                 </div>  <!-- row -->
                 
@@ -92,46 +99,52 @@
                         <br/>
                     </div>
                 </div>
-                <div class="row main_content">
-                    <div class="col-md-3 wow animated zoomIn" data-wow-delay="0.1s">
-                        <figure>
-                            <img class="pro img-responsive center-block" src="img/3-col-icons-web.jpg">
-                        </figure>
-                        <h5 class="text-center">Phone Consultation</h5>
-                        
-                    </div>  <!-- col-md-4 -->
-
-                    <div class="col-md-3 wow animated zoomIn" data-wow-delay="0.1s">
-                        <figure>
-                            <img class="pro img-responsive center-block" src="img/3-col-icons-android.jpg">
-                        </figure>
-                        <h5 class="text-center">Yearly Detailed Report</h5>
-                        
-                    </div>  <!-- col-md-4 -->
-
-                    <div class="col-md-3 wow animated zoomIn" data-wow-delay="0.1s">
-                        <figure>
-                            <img class="pro img-responsive center-block" src="img/3-col-icons-iphone.jpg">
-                        </figure>
-                        <h5 class="text-center">Get Lucky Dates</h5>
-                        
-                    </div>  <!-- col-md-4 -->
-                   
-                     <div class="col-md-3 wow animated zoomIn" data-wow-delay="0.1s">
-                        <figure>
-                            <img class="pro img-responsive center-block" src="img/marriage.jpg">
-                        </figure>
-                        <h5 class="text-center">Marriage Prediction</h5>
-                        
-                    </div>  <!-- col-md-4 -->
-                    <div class="col-md-3 wow animated zoomIn" data-wow-delay="0.1s">
-                        <figure>
-                            <img class="pro img-responsive center-block" src="img/health.jpg">
-                        </figure>
-                        <h5 class="text-center">Health horoscope</h5>
-                        
-                    </div>  <!-- col-md-4 -->
+                <div class="wow animated zoomIn" data-wow-delay="0.1s">
+                    <div class="col-md-3 row main_content">
+                    
+                        <h5 class="text-center"><a href="{{url('/phone')}}"> Phone Consultation</a></h5>               
+                    <br>                   
+                        <h5 class="text-center"><a href="{{url('/year')}}"> Yearly Detailed Report </a></h5>
+                    <br>
+                    
+                        <h5 class="text-center"><a href="{{url('/luck')}}"> Get Lucky Dates</a></h5>
+                   <br>
+                        <h5 class="text-center"><a href="{{url('/marriage')}}"> Marriage Prediction</a></h5>
+                </div>
+                <div class="col-md-3 row main_content">  
+                        <h5 class="text-center"><a href="{{url('/health')}}"> Health Horoscope</a></h5>
+                    <br>
+                      <h5 class="text-center"><a href="{{url('/child')}}"> Child Birth Issue</a></h5>
+                    <br>
+                      <h5 class="text-center"><a href="{{url('/vasthu')}}"> Vasthu</a></h5>
+                    <br>
+                      <h5 class="text-center"><a href="{{url('/numerology')}}"> Numerology</a></h5>
                 </div><!-- row main_content -->
+                <div class="col-md-3 row main_content">
+                    
+                       
+                        <h5 class="text-center"><a href="{{url('/person')}}"> Personalised Predictions</a></h5>
+                    <br>
+                         <h5 class="text-center"><a href="{{url('/match')}}"> Match Making</a></h5>
+                    <br>
+                       <h5 class="text-center"><a href="{{url('/relationship')}}"> Relationship Problem</a></h5>
+                    <br>
+                         <h5 class="text-center"><a href="{{url('/wealth')}}"> Wealth Problem</a></h5>
+                    <br>
+                </div>
+                <div class="col-md-3 row main_content">
+                        <h5 class="text-center"><a href="{{url('/germ')}}"> Lucky Gemstone Recommendation</a></h5>
+                    <br>
+                        <h5 class="text-center"><a href="{{url('/death')}}"> Death Remedy</a></h5>
+                    <br>
+               
+                        <h5 class="text-center"><a href="{{url('/muhoorthams')}}"> Take Muhurtham</a></h5>
+
+                    <br>
+                        <h5 class="text-center"><a href="{{url('/business')}}"> Business Report</a></h5>
+                    <br>
+                </div>
+            </div>
             </div>  <!-- container -->
         </section>  <!-- our_service -->
 
@@ -139,87 +152,21 @@
         <section id="team">
             <div class="container">
                 <div class="team-members">
-                    <div class="row text-right" id="heading">
-                        <div class="col-md-6 col-md-offset-3 wow animated zoomInDown" id="heading-text">
-                            <h3>Our Team</h3>
-                            <p>We can satisfy your demand</p>
+                    <div class="row text-center" id="heading">
+                        <div class="wow animated zoomInDown" id="heading-text">
+                            <h3>Remedies</h3>
                             <hr class="full">
-                            <br/>
+                           
                         </div>
                     </div>
-                    <div class="row main_content">
-                        <div class="col-md-4 col-sm-6 text-center">
-                            <div class="row wow animated zoomIn" data-wow-delay="0.1s">
-                                <div class="col-md-8 col-md-offset-2">
-                                    <img class="img-circle img-responsive center-block" src="img/Syed-Rezwanul-Haque.jpg" alt="Syed Rezwanul Haque Rubel">
-                                </div>
-                            </div>
-                            <h4 class="wow animated fadeInUp" data-wow-delay= "0.2s">Syed Rezwanul Haque Rubel</h4>
-                            <p class= "member-title wow animated fadeIn" data-wow-delay= "0.3s">Project Manager</p>
-                            <p class= "team-member-description wow animated fadeIn" data-wow-delay= "0.4s">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna hifd.</p>
-                            <div class= "row text-center wow animated fadeInDown" data-wow-delay= "0.5s">
-                                <div class= "team-member-contact">
-                                    <a href="#" data-toggle="tooltip" title="Contact with Facebook" class= "team-facebook">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                
-                                    <a href="#" data-toggle="tooltip" title="Contact with Twitter" class= "team-twitter">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                
-                                    <a href="#" data-toggle="tooltip" title="Contact with Google-plus"class= "team-google-plus">
-                                        <i class="fa fa-google-plus"></i>
-                                    </a>
-                                </div>  
-                            </div>
-                        </div>  <!-- col-md-4 -->
-                        <div class="col-md-4 col-sm-6 text-center">
-                            <div class= "row wow animated zoomIn" data-wow-delay="0.6s">
-                                <div class= "col-md-8 col-md-offset-2">
-                                    <img class="img-circle img-responsive center-block" src="img/Shahjahan-Jewel.jpg" alt= "Shahjahan Jewel" >
-                                </div>
-                            </div>
-                            <h4 class= "wow animated fadeInUp" data-wow-delay= "0.7s">Shahjahan Jewel</h4>
-                            <p class= "member-title wow animated fadeIn" data-wow-delay= "0.8s">Head Of Ideas</p>
-                            <p class= "team-member-description wow animated fadeIn" data-wow-delay= "0.9s">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                            <div class= "row text-center wow animated fadeInDown" data-wow-delay= "0.5s">   
-                                <div class= "team-member-contact">
-                                    <a href="#" data-toggle="tooltip" title="Contact with Facebook" class= "team-facebook">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                    <a href="#" data-toggle="tooltip" title="Contact with Twitter" class= "team-twitter">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                    <a href="#" data-toggle="tooltip" title="Contact with Google-plus"class= "team-google-plus">
-                                        <i class="fa fa-google-plus"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>  <!-- col-md-4 -->
-                        <div class="col-md-4 col-sm-6 text-center">
-                            <div class= "row wow animated zoomIn" data-wow-delay="1.1s">
-                                <div class="col-md-8 col-md-offset-2">
-                                    <img class="img-circle img-responsive center-block" src="img/nathan.jpg" alt= "Nathan Thomas Paul" >
-                                </div>
-                            </div>
-                            <h4 class="wow animated fadeInUp" data-wow-delay= "1.2s">Nathan Thomas Paul</h4>
-                            <p class= "member-title wow animated fadeIn" data-wow-delay= "1.3s">Client Relations Manager</p>
-                            <p class= "team-member-description wow animated fadeIn" data-wow-delay= "1.4s">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum.</p>
-                            <div class= "row text-center wow animated fadeInDown" data-wow-delay= "0.5s">   
-                                <div class= "team-member-contact">
-                                    <a href="#" data-toggle="tooltip" title="Contact with Facebook" class= "team-facebook">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                
-                                    <a href="#" data-toggle="tooltip" title="Contact with Twitter" class= "team-twitter">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                
-                                    <a href="#" data-toggle="tooltip" title="Contact with Google-plus"class= "team-google-plus">
-                                        <i class="fa fa-google-plus"></i>
-                                    </a>
-                                </div>
-                            </div>
+                    <div class="row main_content text-center">
+                       
+                           <h5 class="text-center"><a href="{{url('/gemremedy')}}"> Gemstones</a></h5>
+                            <br>
+                            <h5 class="text-center"><a href="{{url('/rudraksharemedy')}}"> Rudrakshas</a></h5>
+                            <br>
+                            <h5 class="text-center"><a href="{{url('/yanthraremedy')}}"> Yanthras</a></h5>
+                        </div>
                         </div>  <!-- col-md-4 -->
                     </div> <!-- row main_content -->
                 </div>  <!-- team-members -->
@@ -227,487 +174,77 @@
         </section>  <!-- team -->
 
         <!-- Portfolio -->
-        <section id="portfolio">
-            <div class="container">
-                <div class="row text-center" id="heading">
-                    <div class="col-md-6 col-md-offset-3 wow animated zoomInDown" id="heading-text">
-                        <h3>Our Works</h3>
-                        <p>Take a look, Taste our cook</p>
-                        <hr class= "full">
-                        <br/>
-                    </div>
-                </div>
-                <div class="main_content">
-                    <div class="row port">
-                        <div class="col-md-8 col-md-offset-2 text-center button-group" id="filters">
-                            <button type="button" class="btn btn-default is-checked" data-filter="*">All</button>
-                            <button type="button" class="btn btn-default" data-filter=".web">Web Design</button>
-                            <button type="button" class="btn btn-default" data-filter=".game">Game</button>
-                            <button type="button" class="btn btn-default" data-filter=".app">App</button>
-                        </div>
-                    </div>  <!-- row -->
-                    <div class="row">
-                        <div class="isotope" id="port-items">
-                            <div class="col-md-4 col-sm-6 col-xs-6 element-item web" data-category="web">
-                                <img class="img-responsive" src="img/web-design-1.jpg" >
-                            </div>
-                            <div class="col-md-4 col-sm-6 col-xs-6 element-item game" data-category="game">
-                                <img class="img-responsive" src="img/game-2.jpg">
-                            </div>
-                            <div class="col-md-4 col-sm-6 col-xs-6 element-item app" data-category="app">
-                                <img class="img-responsive" src="img/app-1.jpg">
-                            </div>
-                            <div class="col-md-4 col-sm-6 col-xs-6 element-item web" data-category="web">
-                                <img class="img-responsive" src="img/web-design-2.jpg">
-                            </div>
-                            <div class="col-md-4 col-sm-6 col-xs-6 element-item game" data-category="game">
-                                <img class="img-responsive" src="img/game-1.jpg">
-                            </div>
-                            <div class="col-md-4 col-sm-6 col-xs-6 element-item app" data-category="app">
-                                <img class="img-responsive" src="img/app-2.jpg">
-                            </div>
-                            <div class="col-md-4 col-sm-6 col-xs-6 element-item web" data-category="web">
-                                <img class="img-responsive" src="img/web-design-3.jpg">
-                            </div>
-                            <div class="col-md-4 col-sm-6 col-xs-6 element-item game" data-category="game">
-                                <img class="img-responsive" src="img/game-3.jpg">
-                            </div>
-                            <div class="col-md-4 col-sm-6 col-xs-6 element-item app" data-category="app">
-                                <img class="img-responsive" src="img/app-3.jpg">
-                            </div>
-                        </div>  <!-- isotope -->
-                    </div>  <!-- row -->
-                </div>  <!-- main_content -->
-            </div>  <!-- container -->
-        </section>  <!-- portfolio -->
         
-        <!-- Price-Table -->
-        <section id="price_table">
-            <div class="container">
-                <div class="row text-center" id="heading">
-                    <div class="col-md-6 col-md-offset-3 wow animated zoomInDown" id="heading-text">
-                        <h3>Price Table</h3>
-                        <p>So flexible, More comfortable</p>
-                        <hr class="full">
-                        <br/>
-                    </div>
-                </div>  <!-- row -->
-                <div class="row main_content">
-                    <ul class="price-table-chart">
-                        <li>
-                            <a href="#">
-                                <strong>Free</strong>
-                                <span class="price_table-description">1 Website</span> 
-                                <span class="price_table-description">1 Year Updates</span> 
-                                <span class="price_table-description">No Email Support</span>
-                                <big class="price_table-price">$0</big>
-                                <span class="price_table-button">Buy Now</span>
-                            </a>
-                        </li>
-                    
-                        <li>
-                            <a href="#">
-                                <strong>Business</strong>
-                                <span class="price_table-description">Unlimited Websites</span> 
-                                <span class="price_table-description">1 Year Updates</span> 
-                                <span class="price_table-description">1 Year Email Support</span>
-                                <big class="price_table-price">$90</big>
-                                <span class="price_table-button">Buy Now</span>
-                            </a>
-                        </li>
-                    
-                        <li>
-                            <a href="#">
-                                <strong>Premium</strong>
-                                <span class="price_table-description">Unlimited Websites</span> 
-                                <span class="price_table-description">Lifetime Updates</span> 
-                                <span class="price_table-description">Lifetime Email Support</span>
-                                <big class="price_table-price">$190</big>
-                                <span class="price_table-button">Buy Now</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>  <!-- row main_content -->
-            </div>  <!-- container -->
-        </section>  <!-- price_table -->
-
-        <!-- Blog -->
-        <section id="blog">
-            <div class="container">
-                <div class="row text-center" id="heading">
-                    <div class= "bg-image">
-                        <div class= "col-md-6 col-md-offset-3 wow animated zoomInDown" id= "heading-text">
-                            <h3>Our Blog</h3>
-                            <p>Sharing knowledge, Accepting challenge.</p>
-                            <hr class= "full">
-                            <br/>
-                        </div>
-                    </div>
-                </div>
-                <div class= "row post">
-                    <div class= "main_content">
-                        <div class= "post-thumbnail col-md-5">
-                            <div class= "frame">
-                                <div class="post-format">
-                                    <span class="icon-picture">
-                                        <i class= "fa fa-laptop"></i>
-                                    </span>
-                                </div>
-                                <a href="#"><img class= "img-responsive" src="img/design1.png" alt=""/></a>
-                            </div>
-                            <img class="hidden-xs post-shadow" src="img/post-shadow.png" alt=""/>
-                        </div>
-                        <div class= "post-excerpt col-md-7">
-                            <h2 class="title"><a href="#">FLAT &amp; MODERN TREND DESIGN</a></h2>
-                            <div class="line-dotted"></div>
-                            <p>
-                                Diur apelligh to luriem rorde ist thuir quire contears foresa irmde narelair muiers lirguen luirem joires porfelas wateir ogespear pesae. Irmde gues narelair muiers lirguen luirem joires porf wateir ogeepear pesae. Diur tol apelligh to luriem rorde ist thuir quire contears foresa irmde narelair muiers lirguen luirem joires porfelas quie wateir ogespear pesae. Irmde gues narelair muiers lirguen luirem joires porf wateir ogeepear pesae.
-                                <a href="#">...Read more</a>
-                            </p> 
-                            <div class="line-dotted"></div>
-                            <p class="meta">
-                                <strong>Date:</strong> 14/February/2013 <strong>By:</strong> Zyanya Peredo <strong>In: </strong><a href="#">Photography</a>, <a href="#">Print</a>, <a href="#">Design</a>
-                            </p>
-                            <div class="line-dotted"></div>
-                            <div class= "post-share">
-                                <p>Share this post:</p>
-                                <ul>
-                                    <li>
-                                        <a href="#" data-toggle="tooltip" title="Contact with Facebook" class= "team-facebook">
-                                            <i class="fa fa-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" data-toggle="tooltip" title="Contact with Twitter" class= "team-twitter">
-                                            <i class="fa fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" data-toggle="tooltip" title="Contact with Google-plus" class= "team-google-plus">
-                                            <i class="fa fa-google-plus"></i>
-                                        </a>
-                                    </li>
-                                </ul>   
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row post">
-                    <div class="main_content">
-                        <div class="post-thumbnail col-md-5">
-                            <div class="frame">
-                                <div class="post-format image">
-                                    <span class="icon-facetime-video">
-                                        <i class="fa fa-video-camera"></i>
-                                    </span>
-                                </div>
-                                <div class="vimeo-video" rel="" data-width="500" data-height="400">
-                                    <iframe width="420" height="315" src="//www.youtube.com/embed/DN__D5ixme0" frameborder="0" allowfullscreen></iframe>
-                                </div>
-                            </div>
-                            <img class="hidden-xs post-shadow" src="img/post-shadow.png" alt=""/>
-                        </div>
-                        <div class="post-excerpt col-md-7">
-                            <h2 class="title">
-                                <a href="#">Make up forever - tres vichy</a>
-                            </h2>
-                            <div class="line-dotted">
-                            </div>
-                            <p>
-                                Diur apelligh to luriem rorde ist thuir quire contears foresa irmde narelair muiers lirguen luirem joires porfelas wateir ogespear pesae. Irmde gues narelair muiers lirguen luirem joires porf wateir ogeepear pesae. Diur tol apelligh to luriem rorde ist thuir quire contears foresa irmde narelair muiers lirguen luirem joires porfelas quie wateir ogespear pesae. Irmde gues narelair muiers lirguen luirem joires porf wateir ogeepear pesae.
-                                <a href="#">...Read more</a>
-                            </p> 
-                            <div class="line-dotted"></div>
-                            <p class="meta"><strong>Date: </strong>14/February/2013 <strong>By: </strong>Zyanya Peredo <strong>In: </strong><a href="#">Photography</a>, <a href="#">Print</a>, <a href="#">Design</a>
-                            </p>
-                            <div class="line-dotted"></div>
-                            <div class= "post-share">
-                                <p>Share this post:</p>
-                                <ul>
-                                    <li>
-                                        <a href="#" data-toggle="tooltip" title="Contact with Facebook" class= "team-facebook">
-                                            <i class="fa fa-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" data-toggle="tooltip" title="Contact with Twitter" class= "team-twitter">
-                                            <i class="fa fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" data-toggle="tooltip" title="Contact with Google-plus" class= "team-google-plus">
-                                            <i class="fa fa-google-plus"></i>
-                                        </a>
-                                    </li>
-                                </ul>   
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row post">
-                    <div class="main_content">
-                        <div class="post-thumbnail col-md-5">
-                            <div class="frame">
-                                <div class="post-format quote">
-                                    <span class="icon-camera-retro">
-                                        <i class= "fa fa-star"></i>
-                                    </span>
-                                </div>
-                                <a href="#"><img class= "img-responsive" src="img/blog3.png" alt=""/></a>
-                            </div>
-                            <img class="hidden-xs post-shadow" src="img/post-shadow.png" alt=""/>
-                        </div>
-                        <div class="post-excerpt col-md-7">
-                            <h2 class="title">
-                                <a href="#">Make up forever - Make your web page beautiful.</a>
-                            </h2>
-                            <div class="line-dotted"></div>
-                            <p>
-                                Diur apelligh to luriem rorde ist thuir quire contears foresa irmde narelair muiers lirguen luirem joires porfelas wateir ogespear pesae. Irmde gues narelair muiers lirguen luirem joires porf wateir ogeepear pesae.
-                                <a href="#">...Read more</a>
-                            </p> 
-                            <div class="line-dotted"></div>
-                            <p class="meta"><strong>Date: </strong>14/February/2013 <strong>By: </strong>Zyanya Peredo<strong>In: </strong><a href="#">Photography</a>, <a href="#">Print</a>, <a href="#">Design</a>
-                            </p>
-                            <div class="line-dotted"></div>
-                            <div class= "post-share">
-                                <p>Share this post:</p>
-                                <ul>
-                                    <li>
-                                        <a href="#" data-toggle="tooltip" title="Contact with Facebook" class= "team-facebook">
-                                            <i class="fa fa-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" data-toggle="tooltip" title="Contact with Twitter" class= "team-twitter">
-                                            <i class="fa fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" data-toggle="tooltip" title="Contact with Google-plus" class= "team-google-plus">
-                                            <i class="fa fa-google-plus"></i>
-                                        </a>
-                                    </li>
-                                </ul>   
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row post">
-                    <div class="main_content">
-                        <div class="post-thumbnail col-md-5">
-                            <div class="frame">
-                                <div class="post-format gallery">
-                                    <span class="icon-quote-left">
-                                        <i class= "fa fa-bookmark"></i>
-                                    </span>
-                                </div>
-                                <a href="#"><img class= "img-responsive" src="img/global_focus.jpg" alt=""/></a>
-                            </div>
-                            <img class="hidden-xs post-shadow" src="img/post-shadow.png" alt=""/>
-                        </div>
-                        <div class="post-excerpt col-md-7">
-                            <h2 class="title">
-                                <a href="#">The most beautiful quotes ever</a>
-                            </h2>
-                            <div class="line-dotted"></div>
-                            <p>
-                                Diur apelligh to luriem rorde ist thuir quire contears foresa irmde narelair muiers lirguen luirem joires porfelas wateir ogespear pesae. Irmde gues narelair muiers lirguen luirem joires porf wateir ogeepear pesae. Diur tol apelligh to luriem rorde ist thuir quire contears foresa irmde narelair muiers lirguen luirem joires porfelas quie wateir ogespear pesae. Irmde gues narelair muiers lirguen luirem joires porf wateir ogeepear pesae.
-                                <a href="#">...Read more</a>
-                            </p> 
-                            <div class="line-dotted"></div>
-                            <p class="meta"><strong>Date:</strong> 14/February/2013 <strong>By:</strong> Zyanya Peredo <strong>In:</strong> <a href="#">Photography</a>, <a href="#">Print</a>, <a href="#">Design</a>
-                            </p>
-                            <div class="line-dotted"></div>
-                            <div class= "post-share">
-                                <p>Share this post:</p>
-                                <ul>
-                                    <li>
-                                        <a href="#" data-toggle="tooltip" title="Contact with Facebook" class= "team-facebook">
-                                            <i class="fa fa-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" data-toggle="tooltip" title="Contact with Twitter" class= "team-twitter">
-                                            <i class="fa fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" data-toggle="tooltip" title="Contact with Google-plus" class= "team-google-plus">
-                                            <i class="fa fa-google-plus"></i>
-                                        </a>
-                                    </li>
-                                </ul>   
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class= "row">
-                    <div class= "col-md-6 col-md-offset-3 text-center">
-                        <ul class="pagination">
-                            <li class="disabled"><a href="#">&gt;&gt;</a></li>
-                            <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li>
-                            <li><a href="#">>></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>  <!-- container -->
-        </section>  <!-- blog -->
-
+        
+        
         <!-- Clients -->
-        <section id= "testimonial">
-            <div class= "container">
-                <div class= "row text-center" id= "heading">
-                    <div class= "bg-image col-md-12">
-                        <div class= "col-md-6 col-md-offset-3 wow animated zoomInDown" id= "heading-text">
-                            <h3>Testimonials</h3>
-                            <p>Their satisfication, Our inspiration.</p>
-                            <hr class= "full">
-                            <br/>
-                        </div>
-                    </div>
-                </div>
-                <div class= "row main_content">
-                    <div class= "col-md-6 col-md-offset-3">
-                        <div id="client-speech" class="owl-carousel owl-theme">
-                            <div class="item">
-                                <div class= "row">
-                                    <div class= "col-md-6 col-md-offset-3">
-                                        <img class= "img-circle img-responsive center-block" src="img/client1.png">
-                                    </div>  
-                                    <div class= "col-md-12">
-                                        <p class= "client-comment text-center">
-                                            When you form a team, why do you try to form a team? Because teamwork builds trust and trust builds speed.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class= "row text-center">
-                                    <p class= "client-name text-center"> ----- Noona Nuengthida Sophon</p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class= "row">
-                                    <div class= "col-md-6 col-md-offset-3">
-                                        <img class= "img-circle img-responsive center-block" src="img/client2.jpg">
-                                    </div>
-                                    <div class= "col-md-12">
-                                        <p class= "client-comment text-center">
-                                            I am constantly being asked about individuals.&nbsp;The only way to win is as a team. Football is not about one or two or three star players.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class= "row text-center">
-                                    <p class= "client-name">-----Md. Aminul Islam Bhuiyan</p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class= "row">
-                                    <div class= "col-md-6 col-md-offset-3">
-                                        <img class= "img-circle img-responsive center-block" src="img/client3.png">
-                                    </div>
-                                    <div class= "col-md-12">
-                                        <p class= "client-comment text-center">
-                                            Individual commitment to a group effort- that is what makes a team work, a company work, a society work, a civilisation work.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class= "row text-center">
-                                    <p class= "client-name">-----  Jenifar Pink</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>  
-        </section>  <!-- clients -->
+       <!-- clients -->
 
         <!-- contact -->
         <section id= "contact">
             <div class= "container">
                 <div class="row text-center" id= "heading">
-                    <div class= "bg-image">
-                        <div class= "col-lg-6 col-lg-offset-3 share-text wow animated zoomInDown" id= "heading-text">
-                            <h3 class= "text-center">Stay Connected</h3>
-                            <p>We want to connect people like you.</p>
+                     <div class= "bg-image col-md-12">
+                        <div class= "col-md-6 col-md-offset-3" id= "heading-text">
+                            <h3>Contact</h3>
                             <hr class= "full">
-                            <br/>
+                           
                         </div>
                     </div>
                 </div>
-                <div class= "row text-center main_content">
-                    <div class= "col-md-6 col-md-offset-3 text-center">
-                        <form method="post" action="#">
-                            <div class= "form">
-                                <div class="input-group margin-bottom-sm">
-                                    <span class="input-group-addon">
-                                        <i class="fa fa-user fa-fw"></i>
-                                    </span>
-                                    <input class="form-control" type="text" placeholder="Name" required>
-                                </div>
-                                <div class="input-group margin-bottom-sm">
-                                    <span class="input-group-addon">
-                                        <i class="fa fa-envelope-o fa-fw"></i>
-                                    </span>
-                                    <input class="form-control" type="text" placeholder="Email address" required>
-                                </div>
-                                <div class="input-group margin-bottom-sm">
-                                    <span class="input-group-addon">
-                                        <i class="fa fa-tags fa-fw"></i>
-                                    </span>
-                                    <input class="form-control" type="text" placeholder="Subject">
-                                </div>
-                            </div>
-                            <div class="input-group margin-bottom-sm">
-                                    <span class="input-group-addon">
-                                        <i class="fa fa-comment-o fa-fw"></i>
-                                    </span>
-                                <textarea class="form-control" rows="6" type= "text" placeholder="Your Message" required></textarea>
-                            </div>
-                            <input class="btn btn-primary send" type="submit" value="Send Message">
-                        </form>
+              
+                    <div class= "col-md-12 col-md-offset-0">
+                        
+                           
+                                <div class= "row">
+                                    
+                                    <div class= "col-md-12">
+                                        <p class= "client-comment text-center"><b>
+                                           Monday - Sunday  : 7am  -  4:30pm, 6:30pm  -  9pm<br>
+                                           Saturday  :Holiday<br>
+                                        </b></p>
+                                    </div>
+                                    
+                                    
+                                </div>      
+                </div>
+                    
+                        <div class= "col-lg-6 col-lg-offset-3" id= "heading-text">
+
+                            
+                            <h4 class="text-danger text-center"> For appointments please contact below phone numbers</h4>
+                        
+                   
+                        <h5 class="text-center">Mob    :     +91 9446614125
+                            <br>
+                            Res  :  0471 2742738<br>
+                            Email:clockastro@gmail.com
+                        <br><br>Address       :        Clock House, Kadakampally Lane, Anayara PO, Thiruvananthapuram,Kerala</h5>
+                        </div>
                     </div>  
                 </div>
                 <div class= "row">
                     <div class= "col-md-6 col-md-offset-3 text-center">
                         <ul class="socials-icons">
                             <li>
-                                <a href="#" data-toggle="tooltip" title="Share in Facebook" class="facebook"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.facebook.com/mulloor.parameswaran.3" data-toggle="tooltip" title="Share in Facebook" class="facebook"><i class="fa fa-facebook"></i></a>
                             </li>
-                            <li>
-                                <a href="#" data-toggle="tooltip" title="Share in Twitter" class="twitter"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" data-toggle="tooltip" title="Share in Google +" class="google-plus"><i class="fa fa-google-plus"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" data-toggle="tooltip" title="Share in Instagram" class="instagram"><i class="fa fa-instagram"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" data-toggle="tooltip" title="Share in Pinterest" class="pinterest"><i class="fa fa-pinterest"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" data-toggle="tooltip" title="Connect with Skype" class="skype"><i class="fa fa-skype"></i></a>
-                            </li>
+                        
+                            
                         </ul>
                     </div>
                 </div>
             </div>
+
         </section>  <!-- contacts --> 
             
         <!-- footer -->
         <section id= "footer" class= "main-footer">
-            <div class= "row">
-                <div class= "logo text-center">
-                    <h1>Renessa</h1>
-                </div>
-            </div>
+            
             <div class= "row">
                 <div class= "copyright text-center">
-                    <p> © 2014 Technext. Designed and Developed by <a href="http://themewagon.com"><span class= "theme">Themewagon</span></a></p>
+                    <p> © 2019 Designed and Developed by <a href="http://themewagon.com"><span class= "theme">Neenu S</span></a></p>
+                    <p>unni.neenu@gmail.com</p>
                 </div>
             </div>
         </section><!-- footer -->
